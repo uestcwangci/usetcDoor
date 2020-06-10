@@ -1,0 +1,107 @@
+/* pages/main/main.wxss */
+@import "../../icon.wxss";
+.cont {
+  background-color: #fff;
+}
+
+.line {
+  width: 100%;
+  margin-top: 20rpx;
+  border-top: 0.5px #aaa solid;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70rpx;
+  margin-bottom: 70rpx;
+  margin-left: 15rpx;
+  text-align: left;
+  font-size: 45rpx;
+  font-weight: bold;
+  color: #337221;
+}
+
+.table {
+  display: table;
+  height: 40px;
+  width: 100%;
+  margin: 5px 0;
+
+  vertical-align: middle;
+}
+
+.cell {
+  display: table-cell;
+	vertical-align: middle;
+}
+
+.lableInfo {
+  margin: 15rpx;
+  font-size: 17px;
+  color: #000000;
+/* 
+  display: table-cell;
+  vertical-align:middle; */
+}
+
+.userInfo {
+  /* flex: 1;
+  position: relative;
+  align-items:center; */
+
+  font-weight: bold;
+  width: 200px;
+  padding: 0px;
+  height: 38px;
+
+  padding-right: 15px;
+
+  text-align:right;
+
+
+  /* margin:0px auto 0px 0px; */
+  float: right;
+}
+
+.name {
+  font-size: 25px;
+
+}
+
+.edu {
+  color: #eead35;
+  font-size: 25px;
+}
+
+.time {
+  color: #54bba0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* .clock {
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  top: 190px;
+
+} */
+
+.upper {
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  top: 187px;
+  left: 0px;
+  margin: 0px;
+  padding: 10px 140px 20px 13px;
+}
+
+.lower {
+  position: absolute;
+  top:200px;
+  z-index: 10;
+}
+
+

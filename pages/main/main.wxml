@@ -1,0 +1,31 @@
+<!--pages/main/main.wxml-->
+<view class="cont">
+  <text class="welcome" size="30">{{userEdu}}用户，{{inOrOut}}授权有效!</text>
+  <view class="line"></view>
+
+  <view class="table">
+    <view class="cell">
+      <span class="iconfont icon-wodejianying" />
+      <text class="lableInfo">用户姓名</text>
+      <text class="userInfo name">{{userName}}</text>
+    </view>
+  </view>
+
+  <view class="table">
+    <view class="cell">
+      <span class="xx iconfont icon-ziyuan191" />
+      <text class="xx lableInfo">登记类型</text>
+      <text class="xx userInfo edu">{{userEdu}}{{masterInfo}}</text>
+    </view>
+  </view>
+
+
+  <view class="table1">
+    <view class="cell1">
+      <view class="iconfont icon-yuyuejianying clock"></view>
+      <text decode="true" class="lableInfo upper">⏲&emsp;登记时间</text>
+      <marquee class="time lower" text="{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}"></marquee>
+
+    </view>
+  </view>
+</view>

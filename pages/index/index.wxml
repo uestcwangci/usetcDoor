@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<form catchsubmit="formSubmit" catchreset="formReset">
+  <view class="page-section">
+    <view class="weui-cells__title">输入本人姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" name="userName" auto-focus placeholder="姓名" />
+      </view>
+    </view>
+
+    <view class="weui-cells__title">学历</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{eduArray}}" name="userEdu">
+          <view class="weui-input">
+            点击选择 {{eduArray[index]}}
+          </view>
+        </picker>
+
+      </view>
+    </view>
+
+    <view class="weui-cells__title">进校or出校</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <switch bindchange="switchChange" name="inOrOut"/>
+        <view>{{inOrOut}}</view>
+
+      </view>
+    </view>
+  </view>
+  <button style="margin: 30rpx 30rpx" type="primary" formType="submit">生成</button>
+</form>
