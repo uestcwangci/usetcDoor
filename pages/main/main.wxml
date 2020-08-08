@@ -1,6 +1,6 @@
 <!--pages/main/main.wxml-->
 <view class="cont">
-  <text class="welcome" size="30">{{userEdu}}用户，{{inOrOut}}授权有效!</text>
+  <text class="welcome" size="30">授权有效!</text>
   <view class="line"></view>
 
   <view class="table">
@@ -25,7 +25,7 @@
       <view class="iconfont icon-yuyuejianying clock"></view>
       <text decode="true" class="lableInfo upper">⏲&emsp;登记时间</text>
       <marquee class="time lower" text="{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}\t{{currentTime}}"></marquee>
-
     </view>
   </view>
+  <button class="person-btn" onTap="onClick">前往个人二维码</button>
 </view>

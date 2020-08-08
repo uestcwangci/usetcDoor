@@ -104,4 +104,9 @@
   z-index: 10;
 }
 
+.person-btn {
+  margin-top: 50px;
+  background-color: #00C3A4;
+  color: #fff;
+}
 
